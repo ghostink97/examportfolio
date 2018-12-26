@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+@import url('https://fonts.googleapis.com/css?family=Codystar');
+@import url('https://fonts.googleapis.com/css?family=Major+Mono+Display');
+@import url('https://fonts.googleapis.com/css?family=Kranky');
+@import url('https://fonts.googleapis.com/css?family=Poiret+One');
+@import url('https://fonts.googleapis.com/css?family=Raleway+Dots');
+@import url('https://fonts.googleapis.com/css?family=Gruppo');
+/*/////////////HOME PAGE//////////////*/
+/*GENERAL*/
+
+body{
+    background-color: black;
+}
+img{
+    width: 100%;
+}
+main{
+    height: 100%;
+}
+
+/*TOP PART OF WEBPAGE*/
+#main-content{
+    position: relative;
+    top: 100px;
+    text-align: center;
+    margin-top: 0;
+    -webkit-text-fill-color: white;
+    font-family: 'Gruppo', cursive;
+    font-size: 0.9em;
+    line-height: 2.5em;
+}
+#logo{
+    position: relative;
+    top: 0em;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    height: 20em;
+    width: 19.9em;
+    top:1.5em;
+}
+
+#arrow{
+    color: white;
+    position: relative;
+    text-align: center;
+    top: 5em;
+
+}
+
+#arrow a:visited{
+    color: white;
+}
+
+#sections{
+    margin-top: 100%;
+    margin-bottom: 50%;
+}
+#footprint{
+    font-size: .7em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+    color: #292929;
+}
+
+/*/////////////ABOUT//////////////*/
+
+#logo-about{
+    width: 60px;
+    height: 61px;
+    padding: 0;
+    margin: 0;
+}
+#burgermenu{
+    width: 60px;
+    height: 61px;
+    text-align: right;
+    float: right;
+    color: white;
+
+}
+
+#abouth1{
+    color: white;
+    text-align: center;
+    top:0;
+    display: block;
+    font-family: 'Gruppo', cursive;
+    font-size: 4em;
+    margin-bottom: .5 em;
+    margin-top:.2em;
+}
+
+p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:left;
+    margin: 2em;
+    margin-bottom: 1em;
+    line-height: 1.5em;
+}
+
+
+/*FOOTER*/
+
+.icons-socialmedia{
+    color:rgb(102, 100, 100);
+    list-style: none;
+    text-align: right;
+    float: right;
+    position: relative;
+    overflow: hidden;
+}
+
+li{
+    display:inline-block;
+    }
+
+.icons-socialmedia :hover{
+    color: white;
+    cursor: pointer;
+}
+
+.icons-socialmedia a:visited{
+    color: rgb(102, 100, 100);
+}
+
+
