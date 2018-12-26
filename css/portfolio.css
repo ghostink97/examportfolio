@@ -40,16 +40,20 @@ main{
 }
 
 #arrow{
-    color: white;
     position: relative;
     text-align: center;
     top: 5em;
 
 }
 
-#arrow a:visited{
-    color: white;
+#arrow a{
+    color:white;
 }
+
+#arrow a:visited{
+    color:white;
+}
+
 
 #sections{
     margin-top: 100%;
@@ -70,16 +74,8 @@ main{
     padding: 0;
     margin: 0;
 }
-#burgermenu{
-    width: 60px;
-    height: 61px;
-    text-align: right;
-    float: right;
-    color: white;
 
-}
-
-#abouth1{
+h1{
     color: white;
     text-align: center;
     top:0;
@@ -124,4 +120,37 @@ li{
     color: rgb(102, 100, 100);
 }
 
+/*//////////////////PAGES///////////////////*/
 
+#themes{
+    margin: 2em;
+    line-height: 3em;
+}
+
+/*///////////////Basic Web///////////////*/
+
+#buttons{
+    display: block;
+    text-align: center;
+    font-family: 'Gruppo', cursive;
+    font-size: 2em;
+    
+}
+#buttons a{
+    color: white;
+    text-decoration: none;
+    line-height: 3em;
+}
+
+#buttons a:visited{
+    color: white;
+    text-decoration: none;
+}
+
+.bw{
+    border-style: solid;
+    border-width: 1px;
+}
+.bw :hover{
+    background-color: white;
+}
