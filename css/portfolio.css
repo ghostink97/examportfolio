@@ -183,6 +183,23 @@ li{
     display: none;
 }
 
+/*///////////////Basic UX///////////////*/
+
+.thankyou{
+    font-family: helvetica, sans-serif;
+    line-height: 1.2em;
+    font-style: italic;
+    margin-bottom: 1em;
+}
+
+.thankyou a{
+    color: white;
+}
+
+.thankyou a:visited{
+    color: white;
+}
+
 /*///////////////////Tablet Version Alterations///////////////////*/
 @media all and (min-width:768px){
 
