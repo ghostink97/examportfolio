@@ -200,6 +200,30 @@ li{
     color: white;
 }
 
+/*///////////////Basic UX///////////////*/
+table{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:left;
+    margin: 1em;
+    margin-bottom: 2em;
+    line-height: 2em;
+}
+
+  td, th {
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even){
+    background-color: #1f1e1e;
+  }
+
+.largebox{
+    height: 50px;
+}
+
+
 /*///////////////////Tablet Version Alterations///////////////////*/
 @media all and (min-width:768px){
 
