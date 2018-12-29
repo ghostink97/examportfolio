@@ -204,7 +204,7 @@ li{
     }
 }
 
-#lola .clicky{
+#lola.clicked{
         background-image:url(../pics/lola9.png);
         height: 350px;
         width: 694px;
@@ -212,7 +212,7 @@ li{
         left: 0;
         top: 87em;
         margin-bottom: 5em;
-        animation: clicked 6s infinite steps(9);
+        animation: clicked 5s infinite steps(9);
     }
     @keyframes clicked{
         to{
