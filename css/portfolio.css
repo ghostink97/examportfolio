@@ -51,7 +51,7 @@ main{
 
 #sections{
     margin-top: 100%;
-    margin-bottom: 50%;
+    margin-bottom: 30%;
 }
 #footprint{
     font-size: .7em;
@@ -233,11 +233,15 @@ table{
     height: 350px;
     width: 694px;
     position: absolute;
-    left: 0;
     top: 87em;
     margin-bottom: 5em;
     animation: flash 1s infinite steps(3);
     cursor: pointer;
+    position: absolute;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, 0%);
+    margin-bottom: 5em;
 }
 @keyframes flash{
     to{
@@ -250,10 +254,14 @@ table{
         height: 350px;
         width: 694px;
         position: absolute;
-        left: 0;
-        top: 87em;
+        top: 89em;
         margin-bottom: 5em;
         animation: clicked 5s infinite steps(9);
+        position: absolute;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, 0%);
+        margin-bottom: 5em;
     }
     @keyframes clicked{
         to{
