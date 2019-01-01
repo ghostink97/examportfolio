@@ -20,7 +20,12 @@
         <main>
             <div id="about-content">
             <h1>Designing This Webiste</h1>
-            <img src="../pics/mobile/design2.png" alt="screencap of code">
+            <picture>
+                <source media="(min-width: 1200px)" srcset="../pics/desktop/design2.png">
+                <source media="(min-width: 768px)" srcset="../pics/tablet/design2.png">
+                <source media="(min-width: 300px)" srcset="../pics/mobile/design2.png">
+                <img src="../pics/mobile/design2.png" alt="screencap of code">
+            </picture>
             <div id="buttons">
                 <a href="../files/moodboard.png">Moodboard</a>
                 <a href="../files/styletile.png">Styletile</a>

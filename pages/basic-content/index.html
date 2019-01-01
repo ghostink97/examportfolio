@@ -23,7 +23,12 @@
         <main>
             <div id="about-content">
             <h1>Basic Content</h1>
-            <img src="../../pics/mobile/basiccontent2.png" alt="train">
+            <picture>
+                <source media="(min-width: 1200px)" srcset="../../pics/desktop/basiccontent2.png">
+                <source media="(min-width: 768px)" srcset="../../pics/tablet/basiccontent2.png">
+                <source media="(min-width: 300px)" srcset="../../pics/mobile/basiccontent2.png">
+                <img src="../../pics/mobile/basiccontent2.png" alt="train">
+            </picture>
             <div id="buttons">
                 <a href="../../files/020101.pdf">Collaboration Agreement</a>
                 <a href="../../files/020102.pdf">XD prototype (pdf)</a>

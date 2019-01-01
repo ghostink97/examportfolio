@@ -20,9 +20,14 @@
         <main>
             <div id="about-content">
             <h1 id="abouth1">About Me</h1>
-            <img src="../pics/mobile/me.png" alt="a drawing I made of me" id="me.img">
+            <picture id="me.img">
+                <source media="(min-width: 1200px)" srcset="../pics/desktop/me.png">
+                <source media="(min-width: 768px)" srcset="../pics/tablet/me.png">
+                <source media="(min-width: 300px)" srcset="../pics/mobile/me.png">
+                <img src="../pics/mobile/me.png" alt="a drawing I made of me">
+            </picture>
             <article>
-                    <p id="p1">I am an artist and aspiring artist located in Copenhagen, Denmark. </p>
+                    <p id="p1">I am a student and aspiring artist located in Copenhagen, Denmark. </p>
                     <p>I study multimedia and communication at Copenhagen School of Design and Technology. </p>
                     <p>Initially, I was majoring in Japan Studies at the University Of Copenhagen, but after just one year of doing the programme, I realized that it wasn't for me. I have always been a creative person, and reading for hours without getting to be creative on a daily basis just isn't something I am capable of. </p>
                     <p>About 8 months ago I started learning python on a whim, and I loved it. It was so much fun, and I enjoyed the process so much so that I looked into IT and technology related studies. That's why I decided to study multimedia design with the intent of taking the Web Development top up. </p>
