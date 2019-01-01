@@ -18,7 +18,7 @@ main{
     top: 100px;
     text-align: center;
     margin-top: 0;
-    -webkit-text-fill-color: white;
+    color: white;
     font-family: 'Gruppo', cursive;
     font-size: 0.9em;
     line-height: 2.5em;
@@ -76,7 +76,7 @@ h1{
     display: block;
     font-family: 'Gruppo', cursive;
     font-size: 4em;
-    margin-bottom: .5 em;
+    margin-bottom: .5em;
     margin-top:.2em;
 }
 
@@ -124,8 +124,8 @@ li{
 /*///////////////Basic Web///////////////*/
 
 #buttons{
-    padding: none;
-    margin: none;
+    padding: 0;
+    margin: 0;
 }
 
 #buttons a{
@@ -227,6 +227,7 @@ table{
 /*///////////////////Tablet Version Alterations///////////////////*/
 @media all and (min-width:768px){
 
+    /*///////////////Basic Animation///////////////*/
 #lola{
     display: inherit;
     background-image:url(../pics/clickhere.png);
