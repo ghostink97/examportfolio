@@ -59,8 +59,6 @@ main{
     text-align: right;
     color: #292929;
 }
- 
-
 
 /*/////////////ABOUT//////////////*/
 
@@ -91,30 +89,11 @@ p{
     line-height: 1.5em;
 }
 
-
-/*FOOTER*/
-
-.icons-socialmedia{
-    color:rgb(102, 100, 100);
-    list-style: none;
-    text-align: right;
-    float: right;
-    position: relative;
-    overflow: hidden;
-}
+ 
 
 li{
     display:inline-block;
     }
-
-.icons-socialmedia :hover{
-    color: white;
-    cursor: pointer;
-}
-
-.icons-socialmedia a:visited{
-    color: rgb(102, 100, 100);
-}
 
 /*//////////////////PAGES///////////////////*/
 
@@ -242,6 +221,10 @@ table{
         width:75%;
     }
 
+    #footprint{
+        font-size: 1em;
+    }
+
     /*///////////////front page///////////////*/
 
     #logo{
@@ -257,26 +240,119 @@ table{
     
     #sections{
         margin-bottom: 0;
+        margin-top: 50%;
     }
-
+    #main-content{
+        font-size: 1em;
+        line-height: 3em;
+    }
 
     #sections img{
         display: inherit;
-        top: 10%;
+        top: 0%;
+        margin-bottom: 10%;
+        position: relative;
+        left: 50%;
+        transform: translate(-50%, 0%);
+        width: 90%;
+    }
+
+    #scroll{
+        font-size: 2em;
+    }
+
+    #pageswrapper{
+        margin: 0;
+    }
+
+    #frontp{
+        line-height: .8em;
+    }
+
+    /*///////////////Pages///////////////*/
+    #themes img{
+        display: inherit;
+        top: 0%;
         margin-bottom: 10%;
         position: relative;
         left: 50%;
         transform: translate(-50%, 0%);
     }
 
-    /*///////////////Basic Animation///////////////*/
+    h1{
+        font-size: 8em;
+    }
+
+    #logo-about{
+        width: 150px;
+        height: 155px;
+    }
+
+     /*///////////////About///////////////*/
+
+     #me-img img{
+        width:100%;
+     }
+
+     #abouth1{
+     line-height: 0;
+     padding: 0;
+     top:0;
+     }
+
+     p{
+         font-size: 1.5em;
+     }
+
+    /*///////////////Design///////////////*/
+#logo-page{
+    width: 150px;
+    height: 155px;
+    line-height: 1em;
+}
+
+#h1design{
+    font-size: 5em;
+}
+
+#buttons{
+    font-size: 2em;
+}
+table{
+    font-size: 1.2em;
+}
+
+/*///////////////Survey///////////////*/
+
+input{
+    padding: 1em;
+    font-size: 1em;
+}
+
+/*///////////////Basic Web///////////////*/
+#h1bw{
+    font-size: 5em;
+    line-height: 1em;
+}
+
+#buttons{
+    font-size: 1.7em;
+}
+
+/*///////////////Basic Content///////////////*/
+
+#iconm{
+    top: 0;
+}
+
+/*///////////////Basic Animation///////////////*/
 #lola{
     display: inherit;
     background-image:url(../pics/clickhere.png);
     height: 350px;
     width: 694px;
     position: absolute;
-    top: 87em;
+    top: 140em;
     margin-bottom: 5em;
     animation: flash 1s infinite steps(3);
     cursor: pointer;
@@ -297,7 +373,7 @@ table{
         height: 350px;
         width: 694px;
         position: absolute;
-        top: 89em;
+        top: 140em;
         margin-bottom: 5em;
         animation: clicked 5s infinite steps(9);
         position: absolute;
