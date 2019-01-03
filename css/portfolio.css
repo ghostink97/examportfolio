@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Gruppo');
 /*/////////////HOME PAGE//////////////*/
 /*GENERAL*/
-
+#banner{
+    display: none;
+}
 body{
     background-color: black;
 }
@@ -54,6 +56,13 @@ main{
     margin-bottom: 30%;
 }
 #footprint{
+    font-size: .7em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+    color: #292929;
+}
+
+#footprints{
     font-size: .7em;
     font-family: Arial, Helvetica, sans-serif;
     text-align: right;
@@ -225,6 +234,10 @@ table{
         font-size: 1em;
     }
 
+    #footprints{
+        font-size: 1em;
+    }
+
     /*///////////////front page///////////////*/
 
     #logo{
@@ -388,3 +401,121 @@ input{
         }
     }
 }
+
+/*///////////////////Desktop Version Alterations///////////////////*/
+
+@media all and (min-width:1100px){
+/***Alternate layout. I thought it looked empty like this so. oof
+
+.container{
+    display: grid;
+    grid-template-columns: 2fr 5fr 2fr;
+    grid-template-rows: auto;
+    grid-template-areas: "header header header" ". main aside" ". . footer";
+}*/
+
+aside{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "nav1 nav2 nav3";
+    column-gap: 0.5em;
+}
+
+#banner{
+    display: inherit;
+    margin: 0 auto;
+    width: 100%;
+    padding: 0;
+    position: absolute;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, 0%);
+    top: 7em;
+}
+
+#logo{
+    top: 0;
+    width: 105px;
+    height: 100px;
+    left: 5em;
+    margin: 0;
+    position: relative;
+}
+
+#frontp{
+    font-size: 3em;
+    text-align: center;
+    position: relative;
+    top: 3em;
+}
+#scroll{
+    font-size: 1em;
+    position: relative;
+    top: 8em;
+}
+
+#arrow{
+    position: relative;
+    top: 11em;
+}
+
+#sections{
+    position: relative;
+    top: 25em;
+    margin: 0;
+}
+
+#footprint {
+    right: 0;
+    position: absolute;
+    top: 67em;
+}
+
+/*//////////////////PAGES///////////////////*/
+
+#themes{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        grid-template-areas: "section1 section2" "section3 section4";
+        column-gap: 0.1em;
+        margin: 0;
+        padding: 5em;
+}
+
+h1{
+    font-size:5em;
+}
+
+/*///////////////Basic Web///////////////*/
+
+#pagesmain{
+    margin: 0 25em 0 25em;
+}
+
+#p{
+    font-size: .5em;
+}
+
+#footprints{
+    margin-top: 15em;
+    position: relative;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+    color: #292929;
+}
+
+/*///////////////Basic Animation///////////////*/
+#lola{
+    top: 145em;
+}
+#lola.clicked{
+        background-image:url(../pics/lola9.png);
+        top: 145em;
+    }
+}
+#me-img img{
+    width: 100%;
+ }

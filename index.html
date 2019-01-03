@@ -9,50 +9,53 @@
         <link rel="icon" href="logo-cat.ico" type="image/x-icon">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     </head>
-    <body>
-        <header>
-            <nav>
-                <a href="https://www.angelezrameyer.com/kea/portfolio/" class="logo" title="Home">
-                    <img src="pics/catwhite.png" alt="this is my logo" id="logo">
+    <div class="container">
+        <body>
+            <header>
+                <nav>
+                    <a href="https://www.angelezrameyer.com/kea/portfolio/" class="logo" title="Home">
+                        <img src="pics/catwhite.png" alt="this is my logo" id="logo">
+                    </a>
+                </nav>
+            </header>
+            <main>
+                <img src="pics/desktop/banner.gif" alt="banner" id="banner">
+                <div id="main-content">
+                <h1 id="frontp">Welcome to my portfolio</h1>
+                <h3 id="scroll">Scroll down to see more</h3>
+                </div>
+                <div id="arrow"><a href="#sections"><i class="fas fa-sort-down fa-4x"></i></a></div>
+            </main>
+            <aside id="sections">
+                <a href="https://www.angelezrameyer.com/kea/portfolio/about/" id="nav1">
+                    <picture title="About">
+                        <source media="(min-width: 1200px)" srcset="pics/desktop/about.png">
+                        <source media="(min-width: 768px)" srcset="pics/tablet/about.png">
+                        <source media="(min-width: 300px)" srcset="pics/mobile/about.png">
+                        <img src="pics/mobile/about.png" alt="about image" title="About">
+                    </picture>
                 </a>
-            </nav>
-        </header>
-        <main>
-            <div id="main-content">
-            <h1 id="frontp">Welcome to my portfolio</h1>
-            <h3 id="scroll">Scroll down to see more</h3>
-            </div>
-            <div id="arrow"><a href="#sections"><i class="fas fa-sort-down fa-4x"></i></a></div>
-        </main>
-        <aside id="sections">
-            <a href="https://www.angelezrameyer.com/kea/portfolio/about/">
-                <picture title="About">
-                    <source media="(min-width: 1200px)" srcset="pics/desktop/about.png">
-                    <source media="(min-width: 768px)" srcset="pics/tablet/about.png">
-                    <source media="(min-width: 300px)" srcset="pics/mobile/about.png">
-                    <img src="pics/mobile/about.png" alt="about image" title="About">
-                </picture>
-            </a>
-            <a href="https://www.angelezrameyer.com/kea/portfolio/pages/">
-                <picture title="Portfolio">
-                    <source media="(min-width: 1200px)" srcset="pics/desktop/portfolio.png">
-                    <source media="(min-width: 768px)" srcset="pics/tablet/portfolio.png">
-                    <source media="(min-width: 300px)" srcset="pics/mobile/portfolio.png">
-                    <img src="pics/mobile/portfolio.png" alt="portfolio image" title="Portfolio">
-                </picture>
-            </a>
-            <a href="https://www.angelezrameyer.com/kea/portfolio/design/">
-                <picture title="Design">
-                    <source media="(min-width: 1200px)" srcset="pics/desktop/design.png">
-                    <source media="(min-width: 768px)" srcset="pics/tablet/design.png">
-                    <source media="(min-width: 300px)" srcset="pics/mobile/design.png">
-                    <img src="pics/mobile/design.png" alt="design image" title="Design">
-                </picture>
-            </a>
-        </aside>
-        <footer>
-            <p id="footprint">by Angel Ezra Meyer (2018/2019)</p>
-        </footer>
+                <a href="https://www.angelezrameyer.com/kea/portfolio/pages/" id="nav2">
+                    <picture title="Portfolio">
+                        <source media="(min-width: 1200px)" srcset="pics/desktop/portfolio.png">
+                        <source media="(min-width: 768px)" srcset="pics/tablet/portfolio.png">
+                        <source media="(min-width: 300px)" srcset="pics/mobile/portfolio.png">
+                        <img src="pics/mobile/portfolio.png" alt="portfolio image" title="Portfolio">
+                    </picture>
+                </a>
+                <a href="https://www.angelezrameyer.com/kea/portfolio/design/" id="nav3">
+                    <picture title="Design">
+                        <source media="(min-width: 1200px)" srcset="pics/desktop/design.png">
+                        <source media="(min-width: 768px)" srcset="pics/tablet/design.png">
+                        <source media="(min-width: 300px)" srcset="pics/mobile/design.png">
+                        <img src="pics/mobile/design.png" alt="design image" title="Design">
+                    </picture>
+                </a>
+            </aside>
+            <footer>
+                <p id="footprint">by Angel Ezra Meyer (2018/2019)</p>
+            </footer>
+        </div>
         <script src="/js/portfolio.js"></script>
     </body>
 </html>
