@@ -18,36 +18,11 @@
         </header>
         <main id="pagesmain">
             <h1>Survey</h1>
+            <p>This is a survey on your experience going through my portfolio website. <br> Keep in mind that all of the questions are completely optional, so feel free to leave some questions blank, if you don't feel comfortable answering them.</p>
             <form action="mailto:angel@angelezrameyer.com" method="POST">
                 <table>
                     <tr>
-                        <td>Your Name:</td>
-                        <td><input type="text" name="full name" placeholder="eg. Johnathan J Johnson"></td>
-                    </tr>
-                    <tr>
-                        <td>Your E-mail Address:</td>
-                        <td><input type="text" name="email" placeholder="eg. John@athan.com"></td>
-                    </tr>
-                    <tr>
-                        <td>Your Age:</td>
-                        <td><input type="number" name="age" min="0" max="120" placeholder="eg. 90"></td>
-                    </tr>
-                    <tr>
-                        <td>Your Birthday:</td>
-                        <td><input type="date" name="Birthdate" id="DoB"></td>
-                    </tr>
-                    <tr>
                         <td>What did you think of the overall design of this website?</td>
-                        <td>
-                            <input type="radio" value="Horrible" name="design">Horrible <br>
-                            <input type="radio" value="Bad" name="design">Bad <br>
-                            <input type="radio" value="Alright" name="design">Alright <br>
-                            <input type="radio" value="Pretty good" name="design">Pretty good <br>
-                            <input type="radio" value="Perfect" name="design">Perfect <br>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>If you peeked at the code, what did you think of it?</td> 
                         <td>
                             <input type="radio" value="Horrible" name="design">Horrible <br>
                             <input type="radio" value="Bad" name="design">Bad <br>
@@ -77,23 +52,48 @@
                         </td>
                     </tr>
                     <tr>
-                        <td>Did you think it was easy to navigate through the pages?</td>
+                        <td>What did you think of the navigation?</td>
                         <td>
-                            <input type="checkbox" value="yes" name="was navigation easy">yes <br>
-                            <input type="checkbox" value="no" name="was navigation easy">no <br>
-                        </td>                        
+                            <input type="radio" value="Horrible" name="design">Horrible <br>
+                            <input type="radio" value="Bad" name="design">Bad <br>
+                            <input type="radio" value="Alright" name="design">Alright <br>
+                            <input type="radio" value="Pretty good" name="design">Pretty good <br>
+                            <input type="radio" value="Perfect" name="design">Perfect <br>
+                         </td>                     
                     </tr>
                     <tr>
-                        <td>What could be improved?</td>
-                        <td><textarea name="improvements" id="1" cols="20" rows="8" placeholder="eg. I think the coloring was alright but..."></textarea></td>
+                        <td>What are your favorite parts of the website?</td>
+                        <td>
+                            <input type="checkbox" value="design" name="favorite">The Overall Design <br>
+                            <input type="checkbox" value="about" name="favorite">The About Page <br>
+                            <input type="checkbox" value="portfolio" name="favorite">The Portfolio Itself <br>
+                            <input type="checkbox" value="easter eggs" name="favorite">The Easter eggs, if you noticed them<br>
+                            <input type="checkbox" value="nothing" name="favorite">Nothing <br>
+                        </td>                        
+                        </tr>
+                    <tr>
+                        <td>On a scale of 1 to 10 what would you rate the website</td>
+                        <td><input type="number" name="age" min="0" max="10" placeholder="1-10"></td>
                     </tr>
                     <tr>
                         <td>Anything to add?</td>
-                        <td><textarea name="comments" id="2" cols="20" rows="8" placeholder="eg. I think you did a great job on the..."></textarea></td>
+                        <td><textarea name="comments" id="2" cols="37" rows="8" placeholder="eg. I think you could improve..."></textarea></td>
                     </tr>
                     <tr>
-                        <td><input type="reset"></td>
-                        <td><input type="submit" value="Sumbit"></td>
+                        <tr>
+                        <td>Your Name:</td>
+                        <td><input type="text" name="full name" placeholder="eg. Johnathan J Johnson"></td>
+                    </tr>
+                    <tr>
+                        <td>Your E-mail Address:</td>
+                        <td><input type="text" name="email" placeholder="eg. John@athan.com"></td>
+                    </tr>
+                    <tr>
+                        <td>Your Birthday:</td>
+                        <td><input type="date" name="Birthdate" id="DoB"></td>
+                    </tr>
+                        <td><input type="reset" id="reset"></td>
+                        <td><input type="submit" value="Sumbit" id="submit"></td>
                     </tr>
                 </table>
             </form>
