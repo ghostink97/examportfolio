@@ -224,7 +224,6 @@ table{
     }
 
     img{
-        display:block;
         margin-left: auto;
         margin-right: auto;
         width:75%;
@@ -453,6 +452,10 @@ aside{
     position: relative;
 }
 
+header{
+    margin: 0;
+}
+
 #frontp{
     font-size: 3em;
     text-align: center;
@@ -530,7 +533,21 @@ p{
         background-image:url(../pics/lola9.png);
         top: 145em;
     }
-}
+
 #me-img img{
     width: 100%;
  }
+
+
+/*///////////////Survey///////////////*/
+ table {
+    font-size: 1em;
+}
+
+/*///////////////Design///////////////*/
+
+#h1design{
+    font-size:  4em;
+}
+
+}
